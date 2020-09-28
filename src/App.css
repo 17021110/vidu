@@ -1,0 +1,50 @@
+.homepage{
+    background-color:#260026;
+    height: 100%;
+    width: 100%;
+}
+.halo22{
+   
+    
+    position: absolute;
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.halo22:hover{
+    background-color:#380028;
+    cursor: grab;
+}
+.halo23{
+    height: 44px;
+    width: 44px;
+    background-color: red;
+    position: absolute;
+}
+.img{
+    height: 64px;
+    width: 64px;
+}
+.text{
+    margin-left: 16px;
+}
+.site{
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 990;
+    background: #380028;
+    width: 280px;
+    color: #d79f47;
+    font-size: 17px;
+    font-weight: 400;
+}
+.tuan{
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+}
