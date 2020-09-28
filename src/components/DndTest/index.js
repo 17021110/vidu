@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 const Item = styled.div`
     padding:8px;
     color:#555;
-   
+    
     border-radius:3px;
     width:250px;
     
@@ -26,7 +26,6 @@ const dropableStyle = {
     width: '100%',
     height: '100%',
     position: 'absolute',
-    display: 'flex'
 
 
 
@@ -39,6 +38,7 @@ const dropableStyle1 = {
     zindex: '990',
     background: '#380028',
     width: '280px',
+    listStyleType: 'none'
 
 
 };
